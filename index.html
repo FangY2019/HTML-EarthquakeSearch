@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/index.css">
+    <script type="text/javascript" src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js" ></script>
+
+</head>
+<body>
+    <div class="nav"></div>
+    <script type="text/javascript">
+        $(".nav").load("nav.html");
+    </script>
+
+
+    <div id="main">
+
+        <div class="left-sidenav"></div>
+        <script type="text/javascript">
+            $(".left-sidenav").load("sideLeft.html");
+        </script>
+
+        <div class="middle">
+            <div class="box">
+                <div id="description">
+                    <p id="usage">This website is a simple web application for the final project of course 2XB3.</p>
+                    <p>Users can search for historical occurrences 
+                        of earthquakes near their current location</p>     
+                    <p>The earthquake data is from
+                         <a href="https://open.canada.ca/data/en/dataset/4cedd37e-0023-41fe-8eff-bea45385e469">Canada Government Open datasets</a></p>
+    
+    
+                </div>
+    
+            </div>
+    
+            <div class="map">
+                <img src="img/map.jpg" width="500" alt="earthquake in or near Canada">
+            </div>
+        </div>
+       
+
+        <div class="right-sidenav"></div>
+        <script type="text/javascript">
+            $(".right-sidenav").load("sideRight.html");
+        </script>
+    </div>
+    
+</body>
+</html>

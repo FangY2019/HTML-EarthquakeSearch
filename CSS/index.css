@@ -1,0 +1,135 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    font-weight: 200;
+    color: black;
+    margin: 0;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+nav{
+    background: black;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 16px;
+    margin: 0;
+    font-size: 20px;   
+}
+
+/* logo: ERA */
+#logo{
+    font-size: 24px;
+    font-family: 'Fredoka One', cursive;
+    padding: 16px;
+}
+
+#E{
+    color: white;
+}
+
+#R{
+    color:red; 
+}   
+
+#A{
+    color: white; 
+}
+
+/* menu */
+#list-item{
+    display: flex;
+    padding-right: 30px;
+    list-style: none;
+    justify-content: center;
+    height: auto;
+
+}
+
+nav a{
+    padding: 0 24px;
+    text-decoration: none;
+    color: white;
+    transition: 0.4s;
+
+}
+
+nav a:hover{
+    text-decoration: none;
+    color: red;
+}
+
+
+/* layout of main page */
+#main{
+    margin: 0;
+    padding-top: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.middle{
+    width: 800px;
+    display: flex;
+    justify-content: center;
+}
+
+.left-sidenav{
+    height: auto;
+    width: 200px;
+    background: #eeeeee;
+    margin-left: 0;
+    padding-top: 10px;
+}
+
+.right-sidenav{
+    height: auto;
+    width: 200px;
+    background: #eeeeee;
+    margin-right: 0;
+    padding-top: 10px;
+}
+
+/* description */
+#description{
+    /* padding: 0 16px; */
+    font-size: 18px;
+    justify-content: center;
+}
+
+/* login */
+
+img{
+    justify-content: center;
+
+}
+
+/* side-bar */
+#main ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+#main ul a{
+    text-decoration: none;
+    transition: 0.3s; 
+    color: black;   
+}
+
+#main ul a:hover{
+    color:#2962ff;
+}
+
+

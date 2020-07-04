@@ -1,0 +1,53 @@
+.form{
+    text-align: left;
+    font-size: 14px;
+}
+
+.form input{
+    width: 80%;
+    border: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 12px;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: black;
+    text-align: left;
+}
+
+
+.form button{
+    text-transform: uppercase;
+    background:#bdbdbd;
+    width: 50%;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 12px;
+    color: white;
+    font-size: 14px;
+    font-weight: 300px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+.form button:hover, .form button:active{
+    color: white;
+    background-color: #1565c0;
+}
+
+.form .message{
+    color:black;
+    font-size: 12px;
+}
+
+.form .message a{
+    color:black;
+    text-decoration: none;
+}
+
+.form .message a:hover{
+    color: blue;
+    font-size: 15px;    
+    text-decoration: blink;
+}

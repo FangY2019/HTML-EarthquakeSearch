@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/index.css">
+    <link rel="stylesheet" href="CSS/login.css">
+    <script type="text/javascript" src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js" ></script>
+
+</head>
+<body>
+    <div class="nav"></div>
+    <script type="text/javascript">
+        $(".nav").load("nav.html");
+    </script>
+
+
+    <div id="main">
+
+        <div class="left-sidenav"></div>
+        <script type="text/javascript">
+            $(".left-sidenav").load("sideLeft.html");
+        </script>
+
+        <div class="middle">
+            <div class="form">
+                <form class="signup">
+                    <h3>New Account</h3>
+                    <p>Name</p>
+                    <input type="text" name="username">
+                    <p>Password</p>
+                    <input type="text" name="Password">
+                    <p>Confirm Password</p>
+                    <input type="text" name="password">
+                    <p>Email</p>
+                    <input type="text" name= "email">
+                    <button> Register</button>
+                    <br>
+                    <p class="message">Already have account? <a href="login.html">&nbsp;Login</a></p>
+                </form>
+            </div>
+
+        </div>
+
+        
+
+        <div class="right-sidenav"></div>
+        <script type="text/javascript">
+            $(".right-sidenav").load("sideRight.html");
+        </script>
+    </div>
+    
+</body>
+</html>
+
+
+  
