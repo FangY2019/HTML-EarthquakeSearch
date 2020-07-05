@@ -11,18 +11,18 @@ earthquake information near their target location.
 # Backend
 - mysql, nodejs
 
-#Screenshot
+# Screenshot
 
-##1. Home page
+## 1. Home page
 <img src="https://github.com/snow20132017/HTML-EarthquakeSearch/tree/master/res/001.png"/>
 
-##2. Login page
+## 2. Login page
 <img src="https://github.com/snow20132017/HTML-EarthquakeSearch/tree/master/res/002.png"/>
 
-##1. Register page
+## 1. Register page
 <img src="https://github.com/snow20132017/HTML-EarthquakeSearch/tree/master/res/003.png"/>
 
-##1. Historical earthquake search page
+## 1. Historical earthquake search page
 <img src="https://github.com/snow20132017/HTML-EarthquakeSearch/tree/master/res/004.png"/>
 
 
