@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/index.css">
+    <link rel="stylesheet" href="CSS/search.css">
+    <script type="text/javascript" src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js" ></script>
+    <title>Welcome to ERA</title>
+</head>
+<body>
+
+    <div class="nav"></div>
+    <script type="text/javascript">
+        $(".nav").load("nav.html");
+    </script>
+
+
+
+    <div id="main">
+
+        <div class="left-sidenav"></div>
+        <script type="text/javascript">
+            $(".left-sidenav").load("sideLeft.html");
+        </script>
+
+
+        <div class="middlePart">
+
+            <h2>Search the historical earthquakes</h2>
+
+            <div id="input">
+                <div id="form">
+                    <form class="search" action="http://127.0.0.1:3000/earthquakelist" method="post">                        
+                        <h4>Please enter your location:</h4>
+                        <p>Latitue</p>
+                        <input type="text" id= "latitude" name="latitude">
+                        <p>Longitude</p>
+                        <input type="text" id= "longitude" name="longitude">
+                        <p>Radius(km)</p>
+                        <input type="text" id= "radius" name="radius">
+                        <br>                      
+                        <input type="submit" id="button" value="Search">
+                    </form>                     
+                </div>
+    
+                <div id="map">
+                    <button onclick="showMap()">show map</button>
+                    <button onclick="getCoordinate()">Get your current coordinateyour from map</button>
+    
+                    <div id="mapholder"></div>
+                    <script src="https://maps.google.com/maps/api/js?sensor=false"></script>
+                    <script src="../JS/map.js"></script>
+                </div>
+            </div>
+
+            <div id="result">
+                <div id="list"></div> 
+            </div>        
+
+        </div>
+    
+
+        <div class="right-sidenav"></div>
+        <script type="text/javascript">
+            $(".right-sidenav").load("sideRight.html");
+        </script>
+    </div>   
+    
+    
+</body>
+</html>
+
+
+ 
