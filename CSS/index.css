@@ -101,12 +101,13 @@ nav a:hover{
 
 /* description */
 #description{
-    /* padding: 0 16px; */
     font-size: 18px;
     justify-content: center;
 }
 
-/* login */
+p a{
+    color: #1976d2;
+}
 
 img{
     justify-content: center;
@@ -126,11 +127,35 @@ img{
 #main ul a{
     text-decoration: none;
     transition: 0.3s; 
-    color: black;   
+    color: #1976d2;   
 }
 
 #main ul a:hover{
     color:#2962ff;
 }
+
+@media(max-width:1200px){
+    .right-sidenav{
+        display: none;
+    }
+
+    .left-sidenav{
+        display: none;
+    }
+}
+
+@media(max-width:800px){
+    .middle{
+        flex-direction: column;
+        width: auto;
+    }
+    .box{
+        width: 100%;
+    }
+    .map img{
+        width: 100%;
+    }
+}
+
 
 

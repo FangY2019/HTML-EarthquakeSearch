@@ -10,32 +10,66 @@ h2{
 
 #input{
     display: flex;
-    justify-content: center;
-}
-
-#form{
-    width: 40%;
-    height: 350px;
-    font-size: 14px;
+    justify-content: space-around;
+    margin: 0;
     padding-left: 20px;
 }
 
-#map{
-    width: 60%;
-    padding-top: 30px;
+#form{
+    width: 300px;
+    height: 350px;
+    font-size: 14px;
 }
 
-#button{
+input{
+    padding: 6px;
+}
+
+#map{
+    width: 500px;
+}
+
+button{
+    margin: 10px 0;
+}
+
+#search-button{
     margin-top: 40px;
+}
+
+#search-button:hover{
+    background: #2962ff;
+}
+
+button{    
     background: #eeeeee;
     color: black;
-
 }
 
-#button:hover{
+button:hover{
     background: #2962ff;
 }
 
 #result{
     margin-top: 0;
+}
+
+@media(max-width:800px){
+
+    .middlePart{
+        width: auto;
+    }
+    #input{
+        flex-direction: column;
+        width: auto;
+    }
+
+    #form{
+        width: 100%;
+    }
+
+    #map{
+        width: 100%;
+    }
+
 }
