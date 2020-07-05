@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
+    <title>Login</title>
     <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="CSS/index.css">
     <link rel="stylesheet" href="CSS/login.css">
@@ -11,6 +11,7 @@
 
 </head>
 <body>
+     <!-- load navigation bar -->
     <div class="nav"></div>
     <script type="text/javascript">
         $(".nav").load("nav.html");
@@ -18,7 +19,7 @@
 
 
     <div id="main">
-
+        <!-- load left side navigation bar -->
         <div class="left-sidenav"></div>
         <script type="text/javascript">
             $(".left-sidenav").load("sideLeft.html");
@@ -26,20 +27,18 @@
 
         <div class="middle">
             <div class="form">
-                <form class="login" method="post" name="form" onsubmit="return validated()">
+                <form class="login">
                     <h3>Log in your account:</h3>
                     <p>User name</p>
                     <input type="text" name= "username">
                     <p>Password</p>
                     <input type="password" name= "Password">
-                    <button class="submit">Login</button>
+                    <button> <a href="search.html">Login</a></button>
                     <p class="message">Don't have account? <a href="register.html">&nbsp;Create an Account</a></p>
                 </form>
             </div>
-            <script src="main.js"></script>
-
         </div>
-
+        <!-- load right side navigation bar -->
         <div class="right-sidenav"></div>
         <script type="text/javascript">
             $(".right-sidenav").load("sideRight.html");
