@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
+    <title>Earthquake Risk Assessment</title>
     <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="CSS/index.css">
     <script type="text/javascript" src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js" ></script>
 
 </head>
 <body>
+    <!-- load navigation bar -->
     <div class="nav"></div>
     <script type="text/javascript">
         $(".nav").load("nav.html");
@@ -17,7 +18,7 @@
 
 
     <div id="main">
-
+        <!-- load left side navigation bar -->
         <div class="left-sidenav"></div>
         <script type="text/javascript">
             $(".left-sidenav").load("sideLeft.html");
@@ -26,7 +27,7 @@
         <div class="middle">
             <div class="box">
                 <div id="description">
-                    <p id="usage">This website is a simple web application for the final project of course 2XB3.</p>
+                    <p id="usage">This website is a web application for earthquake query.</p>
                     <p>Users can search for historical occurrences
                         of earthquakes near their current location.</p>     
                     <p>The earthquake data is from
@@ -34,9 +35,8 @@
     
                     <p>You can search the historial earthquakes in the Search page. 
                         You can enter the coordinates of your target location or get the coordinates of your current location from the map.
-                        When you click search, it will show you the detail information of historial earthquakes within the given radius.</p>
-                </div>
-    
+                        When you click search button, it will show you the detail information of historial earthquakes within the given radius.</p>
+                </div>    
             </div>
     
             <div class="map">
@@ -44,7 +44,7 @@
             </div>
         </div>
        
-
+        <!-- load right side navigation bar -->
         <div class="right-sidenav"></div>
         <script type="text/javascript">
             $(".right-sidenav").load("sideRight.html");
