@@ -17,13 +17,13 @@ earthquake information near their target location.
 <img src="https://github.com/snow20132017/HTML-EarthquakeSearch/blob/master/res/001.PNG"/>
 
 - Login page
-<img src="https://github.com/snow20132017/HTML-EarthquakeSearch/blob/master/res/002.png"/>
+<img src="https://github.com/snow20132017/HTML-EarthquakeSearch/blob/master/res/002.PNG"/>
 
 - Register page
-<img src="https://github.com/snow20132017/HTML-EarthquakeSearch/blob/master/res/003.png"/>
+<img src="https://github.com/snow20132017/HTML-EarthquakeSearch/blob/master/res/003.PNG"/>
 
 - Historical earthquake search page
-<img src="https://github.com/snow20132017/HTML-EarthquakeSearch/blob/master/res/004.png"/>
+<img src="https://github.com/snow20132017/HTML-EarthquakeSearch/blob/master/res/004.PNG"/>
 
 
 
