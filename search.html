@@ -9,26 +9,20 @@
     <title>Welcome to ERA</title>
 </head>
 <body>
-
+    <!-- load navigation bar -->
     <div class="nav"></div>
     <script type="text/javascript">
         $(".nav").load("nav.html");
     </script>
-
-
-
+    <!-- load left side navigationbar -->
     <div id="main">
-
         <div class="left-sidenav"></div>
         <script type="text/javascript">
             $(".left-sidenav").load("sideLeft.html");
         </script>
 
-
         <div class="middlePart">
-
             <h2>Search the historical earthquakes</h2>
-
             <div id="input">
                 <div id="form">
                     <form class="search" action="http://127.0.0.1:3000/earthquakelist" method="post">                        
@@ -40,7 +34,7 @@
                         <p>Radius(km)</p>
                         <input type="text" id= "radius" name="radius">
                         <br>                      
-                        <input type="submit" id="button" value="Search">
+                        <input type="submit" id="search-button" value="Search">
                     </form>                     
                 </div>
     
@@ -60,7 +54,7 @@
 
         </div>
     
-
+        <!-- load right side navigation bar -->
         <div class="right-sidenav"></div>
         <script type="text/javascript">
             $(".right-sidenav").load("sideRight.html");

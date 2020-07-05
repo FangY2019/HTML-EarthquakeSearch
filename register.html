@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
+    <title>Register</title>
     <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="CSS/index.css">
     <link rel="stylesheet" href="CSS/login.css">
@@ -11,14 +11,14 @@
 
 </head>
 <body>
+    <!-- load navigation bar -->
     <div class="nav"></div>
     <script type="text/javascript">
         $(".nav").load("nav.html");
     </script>
 
-
     <div id="main">
-
+        <!-- load left side navigation bar -->
         <div class="left-sidenav"></div>
         <script type="text/javascript">
             $(".left-sidenav").load("sideLeft.html");
@@ -36,16 +36,13 @@
                     <input type="text" name="password">
                     <p>Email</p>
                     <input type="text" name= "email">
-                    <button> Register</button>
+                    <button> <a href="login.html">Register</a></button>
                     <br>
                     <p class="message">Already have account? <a href="login.html">&nbsp;Login</a></p>
                 </form>
             </div>
-
-        </div>
-
-        
-
+        </div>        
+        <!-- load right side navigation bar -->
         <div class="right-sidenav"></div>
         <script type="text/javascript">
             $(".right-sidenav").load("sideRight.html");
